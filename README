@@ -1,0 +1,1 @@
+A very simple JApplet written in Java that animates two bicycles. These bikes can be controlled separately, adding delays, stopping and starting movement, or reversing the direction. Just an example of some simple animation done as a homework assignment for a CSE 205 Object-Oriented Program & Data class at ASU.

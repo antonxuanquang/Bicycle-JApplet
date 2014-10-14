@@ -14,6 +14,6 @@ public class Assignment12 extends JApplet {
 	public void init() {
 		ControlPanel panel = new ControlPanel(WIDTH, HEIGHT);
 		getContentPane().add(panel);
-		setSize(WIDTH + 200, HEIGHT);
+		setSize(WIDTH + 300, HEIGHT);
 	}
 }

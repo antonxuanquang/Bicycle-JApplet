@@ -7,15 +7,13 @@
 
 import javax.swing.*;
 
-public class Assignment12 extends JApplet
- {
-  private static int WIDTH = 650;
-  private static int HEIGHT = 340;
+public class Assignment12 extends JApplet {
+	private static int WIDTH = 650;
+	private static int HEIGHT = 340;
 
-  public void init()
-   {
-       ControlPanel panel = new ControlPanel(WIDTH,HEIGHT);
-       getContentPane().add(panel);
-       setSize(WIDTH,HEIGHT);
-   }
- }
+	public void init() {
+		ControlPanel panel = new ControlPanel(WIDTH, HEIGHT);
+		getContentPane().add(panel);
+		setSize(WIDTH + 200, HEIGHT);
+	}
+}
